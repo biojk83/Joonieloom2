@@ -31,8 +31,8 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
-        title={'Custom Embroidered Clothing & Our Custom Design'}
-        subtitle={'Quality Apparel'}
+        title={'Custom Embroidered Clothing'}
+        subtitle={'Quality Apparel from JoonieLoom'}
         ctaText={'shop now'}
         ctaAction={goToShop}
       />
