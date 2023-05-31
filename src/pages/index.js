@@ -52,7 +52,7 @@ const IndexPage = () => {
       {/* ecwid */}
       <div className={styles.messageContainer}>
         <ProductBrowser
-          storeId="13433173"
+          storeId="86415007"
         />
       </div>
 
