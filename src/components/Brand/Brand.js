@@ -15,7 +15,7 @@ const Brand = (props) => {
      width="2.31111in" height="0.833333in"
      viewBox="0 0 208 75">
   <path id="Imported Path"
-        fill="none" stroke="black" stroke-width="1"
+        fill="black" stroke="black" stroke-width="1"
         d="M 36.45,73.80
            C 36.45,73.80 25.74,73.80 25.74,73.80
              25.74,73.80 0.00,6.48 0.00,6.48
