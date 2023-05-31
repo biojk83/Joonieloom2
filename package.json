@@ -17,6 +17,7 @@
     "plop": "plop"
   },
   "dependencies": {
+    "@ecwid/gatsby-plugin-ecwid": "^0.1.0",
     "@netlify/plugin-gatsby": "^3.6.2",
     "cypress": "^10.0.3",
     "gatsby": "^4.5.4",
