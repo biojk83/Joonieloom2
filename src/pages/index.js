@@ -10,6 +10,7 @@ import ProductCollectionGrid from '../components/ProductCollectionGrid';
 import ProductCardGrid from '../components/ProductCardGrid';
 import Quote from '../components/Quote';
 import Title from '../components/Title';
+import {ProductBrowser} from '@ecwid/gatsby-plugin-ecwid';
 
 import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
 
@@ -46,6 +47,13 @@ const IndexPage = () => {
           wear by <span className={styles.gold}>sunspel</span> and{' '}
           <span className={styles.gold}>scotch&soda</span>
         </p>
+      </div>
+
+      {/* ecwid */}
+      <div className={styles.messageContainer}>
+        <ProductBrowser
+          storeId="13433173"
+        />
       </div>
 
       {/* Collection Container */}
@@ -144,4 +152,6 @@ const IndexPage = () => {
   );
 };
 
+
 export default IndexPage;
+
