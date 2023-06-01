@@ -50,43 +50,11 @@ const ShopPage = (props) => {
           }
         />
         <Container size={'large'} spacing={'min'}>
-          <div className={styles.metaContainer}>
-            <span className={styles.itemCount}>476 items</span>
-            <div className={styles.controllerContainer}>
-              <div
-                className={styles.iconContainer}
-                role={'presentation'}
-                onClick={() => setShowFilter(!showFilter)}
-              >
-                <Icon symbol={'filter'} />
-                <span>Filters</span>
-              </div>
-              <div
-                className={`${styles.iconContainer} ${styles.sortContainer}`}
-              >
-                <span>Sort by</span>
-                <Icon symbol={'caret'} />
-              </div>
-            </div>
-          </div>
-          <CardController
-            closeFilter={() => setShowFilter(false)}
-            visible={showFilter}
-            filters={Config.filters}
-          />
-          <div className={styles.chipsContainer}>
-            <Chip name={'XS'} />
-            <Chip name={'S'} />
-          </div>
-          <div className={styles.productContainer}>
-            <span className={styles.mobileItemCount}>476 items</span>
-            <ProductCardGrid data={data}></ProductCardGrid>
-          </div>
-          <div className={styles.loadMoreContainer}>
-            <span>6 of 456</span>
-            <Button fullWidth level={'secondary'}>
-              LOAD MORE
-            </Button>
+          {/* ecwid */}
+          <div className={styles.messageContainer}>
+            <ProductBrowser
+              storeId="86415007"
+            />
           </div>
         </Container>
       </div>
