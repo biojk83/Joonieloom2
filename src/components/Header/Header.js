@@ -144,13 +144,13 @@ const Header = (prop) => {
               <Icon symbol={'user'}></Icon>
             </Link>
             
-            <button
+            <Link
               aria-label="Cart"
-              href="https://www.google.com/"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
             >
-              <Icon symbol={'instagram'}></Icon>
-            </button>
+              <a href="https://www.google.com/"><Icon symbol={'instagram'}></Icon></a>
+              
+            </Link>
 
             <div className={styles.notificationContainer}>
               <AddNotification openCart={() => setShowMiniCart(true)} />
