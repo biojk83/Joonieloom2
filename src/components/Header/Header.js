@@ -119,7 +119,7 @@ const Header = (prop) => {
           </div>
           <Brand />
           <div className={styles.actionContainers}>
-            {/*
+            
             <button
               aria-label="Search"
               className={`${styles.iconButton} ${styles.iconContainer}`}
@@ -143,26 +143,15 @@ const Header = (prop) => {
             >
               <Icon symbol={'user'}></Icon>
             </Link>
-            */}
-            <button
-              aria-label="Instagram"
+            
+            <Link
+              aria-label="Cart"
+              href="www.google.com"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
-              onClick={() => {
-                setShowMiniCart(true);
-                setMobileMenu(false);
-              }}
             >
-              <Icon symbol={'Instagram'}></Icon>
-              <div className={styles.bagNotification}>
-                <span>1</span>
-              </div>
+              <Icon symbol={'instagram'}></Icon>
+            </Link>
 
-              <div class="ec-cart-widget"></div>
-              <div>
-                <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-05-31" charset="utf-8"></script>
-                <script type="text/javascript">Ecwid.init();</script>
-              </div>
-            </button>
             <div className={styles.notificationContainer}>
               <AddNotification openCart={() => setShowMiniCart(true)} />
             </div>
