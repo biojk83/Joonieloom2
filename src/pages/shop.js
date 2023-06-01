@@ -13,6 +13,7 @@ import ProductCardGrid from '../components/ProductCardGrid';
 import { generateMockProductData } from '../helpers/mock';
 import Button from '../components/Button';
 import Config from '../config.json';
+import {ProductBrowser} from '@ecwid/gatsby-plugin-ecwid';
 
 const ShopPage = (props) => {
   const [showFilter, setShowFilter] = useState(false);
