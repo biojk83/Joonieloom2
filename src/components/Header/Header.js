@@ -119,6 +119,7 @@ const Header = (prop) => {
           </div>
           <Brand />
           <div className={styles.actionContainers}>
+            {/*
             <button
               aria-label="Search"
               className={`${styles.iconButton} ${styles.iconContainer}`}
@@ -142,6 +143,7 @@ const Header = (prop) => {
             >
               <Icon symbol={'user'}></Icon>
             </Link>
+            */}
             <button
               aria-label="Cart"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
