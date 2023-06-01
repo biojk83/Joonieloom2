@@ -144,20 +144,19 @@ const Header = (prop) => {
               <Icon symbol={'user'}></Icon>
             </Link>
             */}
-            <button>
-            {/*
-              aria-label="Cart"
+            <button
+              aria-label="Instagram"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
               onClick={() => {
                 setShowMiniCart(true);
                 setMobileMenu(false);
               }}
             >
-              <Icon symbol={'bag'}></Icon>
+              <Icon symbol={'Instagram'}></Icon>
               <div className={styles.bagNotification}>
                 <span>1</span>
               </div>
-            */}
+
               <div class="ec-cart-widget"></div>
               <div>
                 <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-05-31" charset="utf-8"></script>
