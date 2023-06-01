@@ -144,7 +144,8 @@ const Header = (prop) => {
               <Icon symbol={'user'}></Icon>
             </Link>
             */}
-            <button
+            <button>
+            {/*
               aria-label="Cart"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
               onClick={() => {
@@ -155,6 +156,12 @@ const Header = (prop) => {
               <Icon symbol={'bag'}></Icon>
               <div className={styles.bagNotification}>
                 <span>1</span>
+              </div>
+            */}
+              <div class="ec-cart-widget"></div>
+              <div>
+                <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-05-31" charset="utf-8"></script>
+                <script type="text/javascript">Ecwid.init();</script>
               </div>
             </button>
             <div className={styles.notificationContainer}>
