@@ -131,7 +131,7 @@ const Header = (prop) => {
             </button>
             <Link
               aria-label="Favorites"
-              href="/account/favorites"
+              href="/account/favorites" 
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <Icon symbol={'heart'}></Icon>
@@ -144,13 +144,13 @@ const Header = (prop) => {
               <Icon symbol={'user'}></Icon>
             </Link>
             
-            <Link
+            <button
               aria-label="Cart"
-              href="www.google.com"
+              href="https://www.google.com/"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
             >
               <Icon symbol={'instagram'}></Icon>
-            </Link>
+            </button>
 
             <div className={styles.notificationContainer}>
               <AddNotification openCart={() => setShowMiniCart(true)} />
