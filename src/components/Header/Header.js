@@ -131,17 +131,17 @@ const Header = (prop) => {
             </button>
             <Link
               aria-label="Favorites"
-      
+              href="/about" 
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
-             <a href="https://www.instagram.com/joonieloom/"><Icon symbol={'heart'}></Icon></a>
+             <Icon symbol={'phone'}></Icon>
             </Link>
 
             <Link
               aria-label="Orders"
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
-              <a href="https://www.pinterest.com/joonieloom/"><Icon symbol={'pinterestInverse'}></Icon></a>
+              <a href="https://www.pinterest.com/joonieloom"><Icon symbol={'pinterestinverse'}></Icon></a>
             </Link>
             
             <Link
