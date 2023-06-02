@@ -131,25 +131,24 @@ const Header = (prop) => {
             </button>
             <Link
               aria-label="Favorites"
-              href="/account/favorites" 
+      
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
-              <Icon symbol={'heart'}></Icon>
+             <a href="https://www.instagram.com/joonieloom/"><Icon symbol={'heart'}></Icon></a>
             </Link>
+
             <Link
               aria-label="Orders"
-              href={isAuth() ? '/login' : '/account/orders/'}
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
-              <Icon symbol={'user'}></Icon>
+              <a href="https://www.pinterest.com/joonieloom/"><Icon symbol={'pinterestInverse'}></Icon></a>
             </Link>
             
             <Link
               aria-label="Cart"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
             >
-              <a href="https://www.google.com/"><Icon symbol={'instagram'}></Icon></a>
-              
+              <a href="https://www.instagram.com/joonieloom/"><Icon symbol={'instagram'}></Icon></a>
             </Link>
 
             <div className={styles.notificationContainer}>
