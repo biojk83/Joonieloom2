@@ -5,8 +5,8 @@ import Hero from '../components/Hero';
 import ThemeLink from '../components/ThemeLink';
 import Layout from '../components/Layout/Layout';
 
-import * as styles from './about.module.css';
-const AboutPage = (props) => {
+import * as styles from './hat.module.css';
+const HatPage = (props) => {
   let historyRef = useRef();
   let valuesRef = useRef();
   let sustainabilityRef = useRef();
@@ -88,4 +88,4 @@ const AboutPage = (props) => {
   );
 };
 
-export default AboutPage;
+export default HatPage;
