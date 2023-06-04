@@ -60,13 +60,13 @@ const IndexPage = () => {
 
       {/* script */}
       <div className={styles.messageContainer}>
-      <div class="ec-cart-widget"></div>
+      <div id="my-categories-86415007"></div>
         <div>
         <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-06-04" charset="utf-8"></script>
-        <script type="text/javascript">Ecwid.init();</script>
+        <script type="text/javascript"> xCategoriesV2("id=my-categories-86415007"); </script>
         </div>
       </div>
-      
+
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
