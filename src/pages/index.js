@@ -61,7 +61,7 @@ const IndexPage = () => {
      
       <div class="ec-cart-widget"></div>
         <div>
-        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-06-04" charset="utf-8" strategy="post-hydrate"></script>
+        <Script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-06-04" charset="utf-8" strategy="post-hydrate"></Script>
         <script type="text/javascript" strategy="post-hydrate">Ecwid.init();</script>
         </div>
       
