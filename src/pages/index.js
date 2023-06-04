@@ -60,10 +60,10 @@ const IndexPage = () => {
 
       {/* script */}
       <div className={styles.messageContainer}>
-      <div id="my-categories-86415007"></div>
+      <div class="ec-cart-widget"></div>
         <div>
         <Script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-06-04" charset="utf-8"></Script>
-        <Script type="text/javascript"> xCategoriesV2("id=my-categories-86415007"); </Script>
+        <Script type="text/javascript">Ecwid.init();</Script>
         </div>
       </div>
 
