@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+
 import AttributeGrid from '../components/AttributeGrid';
 import Container from '../components/Container';
 import Hero from '../components/Hero';
@@ -11,6 +12,7 @@ import ProductCardGrid from '../components/ProductCardGrid';
 import Quote from '../components/Quote';
 import Title from '../components/Title';
 import {ProductBrowser} from '@ecwid/gatsby-plugin-ecwid';
+import { Script } from "gatsby"
 
 import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
 
@@ -40,12 +42,12 @@ const IndexPage = () => {
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
+        Embroidery is the craft of decorating fabric or other materials using a needle to{' '}
+          <span className={styles.gold}>apply thread.</span>
         </p>
         <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
+          JoonieLoom <span className={styles.gold}>Contemporary modern embroidery patterns</span> and{' '}
+          <span className={styles.gold}>exclusively custom design</span>
         </p>
       </div>
 
@@ -56,6 +58,13 @@ const IndexPage = () => {
         />
       </div>
 
+      {/* script */}
+      <div class="ec-cart-widget"></div>
+        <div>
+        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-06-04" charset="utf-8"></script>
+        <script type="text/javascript">Ecwid.init();</script>
+        </div>
+        
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
