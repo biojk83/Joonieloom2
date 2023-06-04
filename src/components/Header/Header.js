@@ -79,7 +79,15 @@ const Header = (prop) => {
   }, [showSearch]);
 
   return (
+    
     <div className={styles.root}>
+
+            <div class="ec-cart-widget"></div>
+              <div>
+                  <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-06-04" charset="utf-8"></script>
+                  <script type="text/javascript" style="display: block">Ecwid.init();</script>
+              </div>
+
       <div className={styles.headerMessageContainer}>
         <span>{bannerMessage}</span>
       </div>
@@ -151,11 +159,7 @@ const Header = (prop) => {
               <a href="https://www.instagram.com/joonieloom/"><Icon symbol={'instagram'}></Icon></a>
             </Link>
 
-            <div class="ec-cart-widget"></div>
-              <div>
-                  <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-06-04" charset="utf-8"></script>
-                  <script type="text/javascript" style="display: block">Ecwid.init();</script>
-              </div>
+            
 
             <div className={styles.notificationContainer}>
               <AddNotification openCart={() => setShowMiniCart(true)} />
