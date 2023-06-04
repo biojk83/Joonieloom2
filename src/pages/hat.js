@@ -50,7 +50,7 @@ const AboutPage = (props) => {
                 <li>Baseball 5 lines</li>
                 <li>No lines unstructure</li>
               </ol>
-              <img alt={'founder'} src={'/hatModel.jpeg'}></img>
+              <img alt={'founder'} src={'/hatModel.jpg'}></img>
             </div>
             <h3>Detail about ...</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
