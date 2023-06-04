@@ -40,10 +40,10 @@ const IndexPage = () => {
       />
   {/* script */}
       <div class="ec-cart-widget"></div>
-        <Helmet>
+        <div>
             <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-06-04" charset="utf-8"></script>
             <script type="text/javascript" style="display: block">Ecwid.init();</script>
-        </Helmet>
+        </div>
 
       {/* Message Container */}
       <div className={styles.messageContainer}>
