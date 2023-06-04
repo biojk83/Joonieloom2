@@ -12,6 +12,7 @@ import ProductCardGrid from '../components/ProductCardGrid';
 import Quote from '../components/Quote';
 import Title from '../components/Title';
 import {ProductBrowser} from '@ecwid/gatsby-plugin-ecwid';
+import { Script } from 'gatsby';
 
 import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
 
@@ -61,8 +62,8 @@ const IndexPage = () => {
       <div className={styles.messageContainer}>
       <div class="ec-cart-widget"></div>
         <div>
-        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-06-04" charset="utf-8"></script>
-        <script type="text/javascript">Ecwid.init();</script>
+        <Script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-06-04" charset="utf-8"></Script>
+        <Script type="text/javascript">Ecwid.init();</Script>
         </div>
       </div>
 
