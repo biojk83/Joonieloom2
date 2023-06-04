@@ -58,13 +58,13 @@ const IndexPage = () => {
       </div>
 
       {/* script */}
-      <div className={styles.messageContainer}>
+     
       <div class="ec-cart-widget"></div>
         <div>
-        <Script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-06-04" charset="utf-8" strategy="post-hydrate"></Script>
-        <Script type="text/javascript" strategy="post-hydrate">Ecwid.init();</Script>
+        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-06-04" charset="utf-8" strategy="post-hydrate"></script>
+        <script type="text/javascript" strategy="post-hydrate">Ecwid.init();</script>
         </div>
-      </div>
+      
 
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
