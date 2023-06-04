@@ -12,7 +12,6 @@ import ProductCardGrid from '../components/ProductCardGrid';
 import Quote from '../components/Quote';
 import Title from '../components/Title';
 import {ProductBrowser} from '@ecwid/gatsby-plugin-ecwid';
-import { script } from 'gatsby';
 
 import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
 
