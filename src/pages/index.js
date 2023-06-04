@@ -38,7 +38,13 @@ const IndexPage = () => {
         ctaText={'shop now'}
         ctaAction={goToShop}
       />
-
+  {/* script */}
+  <div class="ec-cart-widget"></div>
+        <div>
+            <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-06-04" charset="utf-8" strategy="post-hydrate"></script>
+            <script type="text/javascript" strategy="post-hydrate">Ecwid.init();</script>
+        </div>
+        
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
@@ -58,15 +64,6 @@ const IndexPage = () => {
         />
       </div>
 
-      {/* script */}
-     
-      <div class="ec-cart-widget"></div>
-        <div>
-   
-            <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-06-04" charset="utf-8" strategy="post-hydrate"></script>
-            <script type="text/javascript" strategy="post-hydrate">Ecwid.init();</script>
-   
-        </div>
       
 
       {/* Collection Container */}
