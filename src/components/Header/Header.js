@@ -79,7 +79,6 @@ const Header = (prop) => {
   }, [showSearch]);
 
   return (
-    
     <div className={styles.root}>
       <div className={styles.headerMessageContainer}>
         <span>{bannerMessage}</span>
