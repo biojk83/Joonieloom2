@@ -42,7 +42,7 @@ const IndexPage = () => {
       <div class="ec-cart-widget"></div>
         <div>
             <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?86415007&data_platform=code&data_date=2023-06-04" charset="utf-8"></script>
-            <script type="text/javascript">Ecwid.init();</script>
+            <script type="text/javascript" >Ecwid.init();</script>
         </div>
 
       {/* Message Container */}
@@ -57,7 +57,12 @@ const IndexPage = () => {
         </p>
       </div>
 
-     
+      {/* ecwid */}
+      <div className={styles.messageContainer}>
+        <ProductBrowser
+          storeId="86415007"
+        />
+      </div>
 
       
 
