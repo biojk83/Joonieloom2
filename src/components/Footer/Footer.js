@@ -89,11 +89,11 @@ const Footer = (prop) => {
                 <div className={styles.socialContainer}>
                   {Config.social.youtube && (
                     <div
-                      onClick={() => handleSocialClick('youtube')}
+                      onClick={() => handleSocialClick('pinterestinverse')}
                       role={'presentation'}
                       className={styles.socialIconContainer}
                     >
-                      <Icon symbol={'youtube'}></Icon>
+                      <Icon symbol={'pinterestinverse'}></Icon>
                     </div>
                   )}
 
@@ -109,11 +109,11 @@ const Footer = (prop) => {
 
                   {Config.social.facebook && (
                     <div
-                      onClick={() => handleSocialClick('facebook')}
+                      onClick={() => handleSocialClick('phone')}
                       role={'presentation'}
                       className={styles.socialIconContainer}
                     >
-                      <Icon symbol={'facebook'}></Icon>
+                      <Icon symbol={'phone'}></Icon>
                     </div>
                   )}
 
