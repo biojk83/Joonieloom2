@@ -135,13 +135,6 @@ const Footer = (prop) => {
       <div className={styles.contentBottomContainer}>
         <Container size={'large'} spacing={'min'}>
           <div className={styles.contentBottom}>
-            <div className={styles.settings}>
-              <Dropdown
-                label={'Country/Region'}
-                optionList={Config.currencyList}
-              />
-              <Dropdown label={'Language'} optionList={Config.languageList} />
-            </div>
             <div className={styles.copyrightContainer}>
               <div className={styles.creditCardContainer}>
                 {Config.paymentOptions.amex && (
@@ -166,16 +159,7 @@ const Footer = (prop) => {
                   ></img>
                 )}
               </div>
-              <span>
-                {new Date().getFullYear()} (c) . Built by{' '}
-                <Button target={true} href="https://www.matterdesign.com.au/">
-                  Matter.
-                </Button>{' '}
-                Powered by{' '}
-                <Button target={true} href="https://jamm.matter.design/">
-                  JAMM.™
-                </Button>
-              </span>
+             
             </div>
           </div>
         </Container>
