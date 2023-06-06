@@ -135,11 +135,14 @@ const Footer = (prop) => {
       <div className={styles.contentBottomContainer}>
         <Container size={'large'} spacing={'min'}>
           <div className={styles.contentBottom}>
+            <span>
             <div className={styles.settings}>
-            <Button target={true} href="https://www.matterdesign.com.au/">
-                  Matter.
+            <Button target={true} href="https://www.joonieloom.com">
+                  Joonie Loom
                 </Button>{' '}
             </div>
+            </span>
+          
             <div className={styles.copyrightContainer}>
               <div className={styles.creditCardContainer}>
                 {Config.paymentOptions.amex && (
