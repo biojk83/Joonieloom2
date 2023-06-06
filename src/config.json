@@ -54,10 +54,6 @@
         {
           "text": "Shipping & Returns",
           "link": "/support#returns"
-        },
-        {
-          "text": "How to use this theme",
-          "link": "/how-to-use"
         }
       ]
     }
@@ -129,7 +125,7 @@
       ]
     },
     {
-      "menuLabel": "journal",
+      "menuLabel": "Customer",
       "menuLink": "/blog",
       "category": null
     },

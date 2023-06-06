@@ -99,11 +99,11 @@ const Footer = (prop) => {
 
                   {Config.social.instagram && (
                     <div
-                      onClick={() => handleSocialClick('instagram')}
+                      onClick={() => handleSocialClick('instagramtwo')}
                       role={'presentation'}
                       className={styles.socialIconContainer}
                     >
-                      <Icon symbol={'instagram'}></Icon>
+                      <Icon symbol={'instagramtwo'}></Icon>
                     </div>
                   )}
 
