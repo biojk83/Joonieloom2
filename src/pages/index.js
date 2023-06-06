@@ -75,7 +75,7 @@ const IndexPage = () => {
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
             title={'Luxury Hooded Sweatshirt'}
-            description={`The finest luxury hoodie. certified organic, ultra-soft cotton fleece has a cozy brushed interior and is a standard unisex fit. reverse flatlock stitched and feature 4" wide, double-folded, flat-knit side ribbing for added flexibility. Additionally, no toxic dyes, chemical fertilizers  or pesticides, or formaldehyde were used in the production of this product. This is an exceptionally high-quality and comfortable version`}
+            description={`The finest luxury hoodie. certified organic, ultra-soft cotton fleece has a cozy brushed interior and is a standard unisex fit. `}
             textLink={'shop now'}
             link={'/shop'}
           />
@@ -87,7 +87,7 @@ const IndexPage = () => {
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'about US'}
         quote={
           '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
         }

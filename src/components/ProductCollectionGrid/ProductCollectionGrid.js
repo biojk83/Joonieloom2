@@ -14,21 +14,57 @@ const ProductCollectionGrid = (props) => {
       />
       <ProductCollection
         image={'/collections/collection2.png'}
-        title={'Women'}
-        text={'SHOP NOW'}
-        link={'/hat'}
+        title={'T-Shirt'}
+        text={'Check Items'}
+        link={'/tshirt'}
       />
       <ProductCollection
         image={'/collections/collection3.png'}
-        title={'Accessories'}
-        text={'SHOP NOW'}
-        link={'/hat'}
+        title={'Polo'}
+        text={'Check Items'}
+        link={'/polo'}
       />
       <ProductCollection
         image={'/collections/collection4.png'}
-        title={'Simple Cotton'}
-        text={'SHOP NOW'}
-        link={'/hat'}
+        title={'Hoodie'}
+        text={'Check Items'}
+        link={'/hoodie'}
+      />
+      <ProductCollection
+        image={'/collections/collection4.png'}
+        title={'Zip-up Hoodie'}
+        text={'Check Items'}
+        link={'/zipuphoodie'}
+      />
+      <ProductCollection
+        image={'/collections/collection4.png'}
+        title={'Hooded T-Shirt'}
+        text={'Check Items'}
+        link={'/hoodedtshirt'}
+      />
+      <ProductCollection
+        image={'/collections/collection4.png'}
+        title={'Sweatshirt'}
+        text={'Check Items'}
+        link={'/sweatshirt'}
+      />
+      <ProductCollection
+        image={'/collections/collection4.png'}
+        title={'1/4 zip Sweatshirt'}
+        text={'Check Items'}
+        link={'/quarterzipsweatshirt'}
+      />
+      <ProductCollection
+        image={'/collections/collection4.png'}
+        title={'Racerback Tank'}
+        text={'Check Items'}
+        link={'/racerbacktank'}
+      />
+      <ProductCollection
+        image={'/collections/collection4.png'}
+        title={'Tank'}
+        text={'Check Items'}
+        link={'/tank'}
       />
     </div>
   );
