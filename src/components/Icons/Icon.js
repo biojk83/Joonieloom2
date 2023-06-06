@@ -17,6 +17,7 @@ import Filter from './Filter';
 import Heart from './Heart';
 import HeartFill from './HeartFill';
 import Instagram from './Instagram';
+import Instagramtwo from './Instagramtwo';
 import List from './List';
 import Logout from './Logout';
 import Minus from './Minus';
@@ -62,8 +63,10 @@ function Icon(props) {
       return <Heart />;
     case 'heartFill':
       return <HeartFill />;
-    case 'instagramtwo':
+    case 'instagram':
       return <Instagram />;
+    case 'instagramtwo':
+      return <Instagramtwo/>;
     case 'list':
       return <List />;
     case 'logout':

@@ -146,7 +146,7 @@ const Header = (prop) => {
             
             <Link
               aria-label="Cart"
-              className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
+              className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <a href="https://www.instagram.com/joonieloom/"><Icon symbol={'instagramtwo'}></Icon></a>
             </Link>
