@@ -26,7 +26,7 @@ const HatPage = (props) => {
         {/* Hero Container */}
         <Hero
           maxWidth={'900px'}
-          image={'/about.png'}
+          image={'/about.jpg'}
           title={`Hat \n Custom Embroidery for your logo`}
         />
 
