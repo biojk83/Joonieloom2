@@ -96,7 +96,7 @@ const Header = (prop) => {
               {Config.headerLinks.map((navObject) => (
                 <Link
                   key={navObject.menuLink}
-                  onMouseEnter={() => handleHover(navObject)}
+                 
                   className={`${styles.navLink} ${
                     activeMenu === navObject.menuLabel ? styles.activeLink : ''
                   }`}
