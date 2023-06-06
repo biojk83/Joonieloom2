@@ -32,22 +32,12 @@ const ShopPage = (props) => {
   return (
     <Layout>
       <div className={styles.root}>
-        <Container size={'large'} spacing={'min'}>
-          <div className={styles.breadcrumbContainer}>
-            <Breadcrumbs
-              crumbs={[
-                { link: '/', label: 'Home' },
-                { link: '/', label: 'Woman' },
-                { label: 'Sweaters' },
-              ]}
-            />
-          </div>
-        </Container>
+      
         <Banner
           maxWidth={'650px'}
-          name={`Woman's Sweaters`}
+          name={`Embroidered Clothings`}
           subtitle={
-            'Look to our women’s sweaters for modern takes on one-and-done dressing. From midis in bold prints to dramatic floor-sweeping styles and easy all-in-ones, our edit covers every mood.'
+            'Look to our embroidered clothings More designs to come every week.'
           }
         />
         <Container size={'large'} spacing={'min'}>
