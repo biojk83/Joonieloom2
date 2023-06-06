@@ -62,7 +62,7 @@ function Icon(props) {
       return <Heart />;
     case 'heartFill':
       return <HeartFill />;
-    case 'instagram':
+    case 'instagramtwo':
       return <Instagram />;
     case 'list':
       return <List />;
