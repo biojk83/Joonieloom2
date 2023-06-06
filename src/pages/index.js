@@ -74,8 +74,8 @@ const IndexPage = () => {
             altImage={'highlight image'}
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
+            title={'Luxury Hooded Sweatshirt'}
+            description={`The finest luxury hoodie. certified organic, ultra-soft cotton fleece has a cozy brushed interior and is a standard unisex fit. reverse flatlock stitched and feature 4" wide, double-folded, flat-knit side ribbing for added flexibility. Additionally, no toxic dyes, chemical fertilizers  or pesticides, or formaldehyde were used in the production of this product. This is an exceptionally high-quality and comfortable version`}
             textLink={'shop now'}
             link={'/shop'}
           />
