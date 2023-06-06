@@ -33,9 +33,10 @@ const HatPage = (props) => {
      
 
         <div className={styles.imageContainer}>
-          <img alt={'shirt brand'} src={'/hat1.png'}></img>
-          <img alt={'shirt brand'} src={'/hat2.png'}></img>
-          <img alt={'shirt brand'} src={'/hat3.png'}></img>
+          <img alt={'Baseball Cap'} src={'/hat1.png'}></img>
+          <img alt={'Baseball Cap_2'} src={'/hat2.png'}></img>
+          <img alt={'Baseball Cap 5 panel'} src={'/hat3.png'}></img>
+          <img alt={'Baseball Cap Flat hip hop'} src={'/hat4.png'}></img>
         </div>
 
         <Container size={'large'} spacing={'min'}>
