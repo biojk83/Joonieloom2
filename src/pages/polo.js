@@ -6,7 +6,7 @@ import ThemeLink from '../components/ThemeLink';
 import Layout from '../components/Layout/Layout';
 
 import * as styles from './hat.module.css';
-const TshirtPage = (props) => {
+const PoloPage = (props) => {
   let historyRef = useRef();
   let valuesRef = useRef();
   let sustainabilityRef = useRef();
@@ -27,15 +27,15 @@ const TshirtPage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/about.jpg'}
-          title={`T-Shirt \n Custom Embroidery for your logo`}
+          title={`Polo \n Custom Embroidery for your logo`}
         />
 
      
 
         <div className={styles.imageContainer}>
-          <img alt={'Hanes'} src={'/tshirt1.png'}></img>
-          <img alt={'Original Favorite'} src={'/tshirt2.png'}></img>
-          <img alt={'Sport-Tek'} src={'/tshirt3.png'}></img>
+          <img alt={'JerZees Polo'} src={'/Polo1.png'}></img>
+          <img alt={'Sport-Tek Polo'} src={'/Polo2.png'}></img>
+          <img alt={'Long Sleeve Polo'} src={'/Polo3.png'}></img>
  
         </div>
 
@@ -47,9 +47,9 @@ const TshirtPage = (props) => {
                 T-Shirt size has 3 different shapes and blah blah
               </p>
               <ol>
-                <li>T-Shirt 100% Cotton</li>
-                <li>T-Shirt 100% Cotton</li>
-                <li>T-Shirt 100% Polyester</li>
+                <li>Polo 100% Cotton</li>
+                <li>Polo 100% Polyester</li>
+                <li>Polo Long Sleeve 60% Cotton / 40% Polyester</li>
               </ol>
               <img alt={'founder'} src={'/hatModel.jpg'}></img>
             </div>
@@ -89,4 +89,4 @@ const TshirtPage = (props) => {
   );
 };
 
-export default TshirtPage;
+export default PoloPage;
