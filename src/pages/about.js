@@ -86,7 +86,7 @@ const AboutPage = (props) => {
                 <li>Sophisticated and not mass-produced</li>
                 <li>Only natural materials</li>
               </ol>
-              <img alt={'founder'} src={'/about2.png'}></img>
+              <img alt={'founder'} src={'/about2.jpg'}></img>
             </div>
             <h3>Sustainability</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
