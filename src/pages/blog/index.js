@@ -18,45 +18,14 @@ const BlogPage = (props) => {
       <div className={styles.root}>
         <Hero
           maxWidth={'400px'}
-          image={'/blogCover.png'}
-          title={`The new standard of Closing`}
+          image={'/blogCover.jpg'}
+          title={`Our Customer`}
           ctaLink={'read story'}
           ctaTo={'/blog/sample'}
-          header={'design'}
+          header={'STORY'}
         />
 
-        <div className={styles.navContainer}>
-          <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
-          >
-            All Posts
-          </ThemeLink>
-          <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
-          >
-            Design
-          </ThemeLink>
-          <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
-          >
-            Collaboration
-          </ThemeLink>
-          <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
-          >
-            Interview
-          </ThemeLink>
-          <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
-          >
-            News
-          </ThemeLink>
-        </div>
+    
 
         {/* Blog Grid */}
         <div className={styles.blogsContainer}>
