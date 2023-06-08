@@ -26,8 +26,8 @@ const AboutPage = (props) => {
         {/* Hero Container */}
         <Hero
           maxWidth={'900px'}
-          image={'/about.png'}
-          title={`Sydney \n A British brand since 1860`}
+          image={'/about.jpg'}
+          title={`Joonie Loom \n Create embroidered apparel for special events`}
         />
 
         <div className={styles.navContainer}>
@@ -48,8 +48,7 @@ const AboutPage = (props) => {
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
-              Founded in 1860, Sydney is an innovative British brand with a
-              contemporary edge. We make timeless everyday luxury clothing.
+              We are small local business but we can create professional looking Embroidered apparel.
             </p>
             <br />
             <br />
@@ -118,7 +117,7 @@ const AboutPage = (props) => {
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'shirt backwards'} src={'/about3.png'}></img>
+          <img alt={'shirt backwards'} src={'/pennsylvania.jpg'}></img>
         </div>
       </div>
     </Layout>
