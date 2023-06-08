@@ -18,7 +18,7 @@ const BlogPage = (props) => {
       <div className={styles.root}>
         <Hero
           maxWidth={'400px'}
-          image={'/blogCover.jpg'}
+          image={'/blogCover.jpeg'}
           title={`Our Customer`}
           ctaLink={'read story'}
           ctaTo={'/blog/sample'}
