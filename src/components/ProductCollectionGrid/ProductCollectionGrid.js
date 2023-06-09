@@ -31,37 +31,37 @@ const ProductCollectionGrid = (props) => {
         link={'/hoodie'}
       />
       <ProductCollection
-        image={'/collections/collection4.png'}
+        image={'/collections/collection5.png'}
         title={'Zip-up Hoodie'}
         text={'Check Items'}
         link={'/zipuphoodie'}
       />
       <ProductCollection
-        image={'/collections/collection4.png'}
+        image={'/collections/collection6.png'}
         title={'Hooded T-Shirt'}
         text={'Check Items'}
         link={'/hoodedtshirt'}
       />
       <ProductCollection
-        image={'/collections/collection4.png'}
+        image={'/collections/collection7.png'}
         title={'Sweatshirt'}
         text={'Check Items'}
         link={'/sweatshirt'}
       />
       <ProductCollection
-        image={'/collections/collection4.png'}
+        image={'/collections/collection8.png'}
         title={'1/4 zip Sweatshirt'}
         text={'Check Items'}
         link={'/quarterzipsweatshirt'}
       />
       <ProductCollection
-        image={'/collections/collection4.png'}
+        image={'/collections/collection9.png'}
         title={'Racerback Tank'}
         text={'Check Items'}
         link={'/racerbacktank'}
       />
       <ProductCollection
-        image={'/collections/collection4.png'}
+        image={'/collections/collection10.png'}
         title={'Tank'}
         text={'Check Items'}
         link={'/tank'}
