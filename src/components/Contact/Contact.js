@@ -60,7 +60,7 @@ const Contact = (props) => {
           <div className={styles.contactForm}>
             <FormInputField
               id={'from_name'}
-              value={contactForm.name}
+              value={contactForm.from_name}
               handleChange={(id, e) => handleChange(id, e)}
               type={'text'}
               labelName={'Full Name'}
