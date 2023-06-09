@@ -50,17 +50,18 @@ const Contact = (props) => {
       </div>
 
       <div className={styles.contactContainer}>
-        <form onSubmit={(e) => handleSubmit(e)} action="POST" data-netlify="true">
+        <form method="POST" data-netlify="true">
           <div className={styles.contactForm}>
-            <FormInputField
+            <input
               id={'name'}
               value={contactForm.name}
               handleChange={(id, e) => handleChange(id, e)}
               type={'text'}
               labelName={'Full Name'}
+              name="name"
               required
             />
-            <FormInputField
+            <input
               id={'phone'}
               value={contactForm.phone}
               handleChange={(id, e) => handleChange(id, e)}
@@ -68,16 +69,17 @@ const Contact = (props) => {
               labelName={'Phone Number'}
               required
             />
-            <FormInputField
+            <input
               id={'email'}
               value={contactForm.email}
               handleChange={(id, e) => handleChange(id, e)}
               type={'email'}
               labelName={'Email'}
+              name="email"
               required
             />
             <div className={styles.commentInput}>
-              <FormInputField
+              <input
                 id={'comment'}
                 value={contactForm.comment}
                 handleChange={(id, e) => handleChange(id, e)}
