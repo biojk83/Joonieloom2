@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Button from '../Button';
-
+import emailjs from 'emailjs-com';
 import FormInputField from '../FormInputField/FormInputField';
 
 import * as styles from './Contact.module.css';
@@ -23,6 +23,12 @@ const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setContactForm(initialState);
+    emailjs.sendForm('service_zxnhfoj', 'template_genhr2i', e.target, 'rmiXAXkx_PWuWJio8')
+      .then((result) => {
+          window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+      }, (error) => {
+          console.log(error.text);
+      });
   };
 
   return (
@@ -50,25 +56,50 @@ const Contact = (props) => {
       </div>
 
       <div className={styles.contactContainer}>
-        <form onSubmit={(e) => handleSubmit(e)} method="POST" data-netlify="true">
-        <p>
-    <label>Your Name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
+        <form onSubmit={(e) => handleSubmit(e)}>
+          <div className={styles.contactForm}>
+            <FormInputField
+              id={'name'}
+              value={contactForm.name}
+              handleChange={(id, e) => handleChange(id, e)}
+              type={'text'}
+              labelName={'Full Name'}
+              required
+            />
+            <FormInputField
+              id={'phone'}
+              value={contactForm.phone}
+              handleChange={(id, e) => handleChange(id, e)}
+              type={'number'}
+              labelName={'Phone Number'}
+              required
+            />
+            <FormInputField
+              id={'email'}
+              value={contactForm.email}
+              handleChange={(id, e) => handleChange(id, e)}
+              type={'email'}
+              labelName={'Email'}
+              required
+            />
+            <div className={styles.commentInput}>
+              <FormInputField
+                id={'comment'}
+                value={contactForm.comment}
+                handleChange={(id, e) => handleChange(id, e)}
+                type={'textarea'}
+                labelName={'Comments / Questions'}
+                required
+              />
+            </div>
+          </div>
+          <Button
+            className={styles.customButton}
+            level={'primary'}
+            type={'buttonSubmit'}
+          >
+            submit
+          </Button>
         </form>
       </div>
     </div>
