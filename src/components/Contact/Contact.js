@@ -56,7 +56,7 @@ const Contact = (props) => {
               id={'name'}
               value={contactForm.name}
               handleChange={(id, e) => handleChange(id, e)}
-              type={'text'}
+              type='text'
               labelName={'Full Name'}
               name="name"
               required
@@ -65,7 +65,7 @@ const Contact = (props) => {
               id={'phone'}
               value={contactForm.phone}
               handleChange={(id, e) => handleChange(id, e)}
-              type={'number'}
+              type='number'
               labelName={'Phone Number'}
               required
             />
@@ -73,7 +73,7 @@ const Contact = (props) => {
               id={'email'}
               value={contactForm.email}
               handleChange={(id, e) => handleChange(id, e)}
-              type={'email'}
+              type='email'
               labelName={'Email'}
               name="email"
               required
@@ -83,7 +83,7 @@ const Contact = (props) => {
                 id={'comment'}
                 value={contactForm.comment}
                 handleChange={(id, e) => handleChange(id, e)}
-                type={'textarea'}
+                type='textarea'
                 labelName={'Comments / Questions'}
                 required
               />
