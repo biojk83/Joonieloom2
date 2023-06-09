@@ -50,40 +50,38 @@ const Contact = (props) => {
       </div>
 
       <div className={styles.contactContainer}>
-        <form method="POST" data-netlify="true">
+        <form onSubmit={(e) => handleSubmit(e)} method="POST" data-netlify="true">
           <div className={styles.contactForm}>
-            <input
+            <FormInputField
               id={'name'}
               value={contactForm.name}
               handleChange={(id, e) => handleChange(id, e)}
-              type='text'
+              type={'text'}
               labelName={'Full Name'}
-              name="name"
               required
             />
-            <input
+            <FormInputField
               id={'phone'}
               value={contactForm.phone}
               handleChange={(id, e) => handleChange(id, e)}
-              type='number'
+              type={'number'}
               labelName={'Phone Number'}
               required
             />
-            <input
+            <FormInputField
               id={'email'}
               value={contactForm.email}
               handleChange={(id, e) => handleChange(id, e)}
-              type='email'
+              type={'email'}
               labelName={'Email'}
-              name="email"
               required
             />
             <div className={styles.commentInput}>
-              <input
+              <FormInputField
                 id={'comment'}
                 value={contactForm.comment}
                 handleChange={(id, e) => handleChange(id, e)}
-                type='textarea'
+                type={'textarea'}
                 labelName={'Comments / Questions'}
                 required
               />
