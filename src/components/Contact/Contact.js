@@ -67,7 +67,7 @@ const Contact = (props) => {
               required
             />
             <FormInputField
-              id={'contact_number'}
+              id={'phone'}
               value={contactForm.phone}
               handleChange={(id, e) => handleChange(id, e)}
               type={'number'}
@@ -75,7 +75,7 @@ const Contact = (props) => {
               required
             />
             <FormInputField
-              id={'from_email'}
+              id={'email'}
               value={contactForm.email}
               handleChange={(id, e) => handleChange(id, e)}
               type={'email'}
@@ -84,7 +84,7 @@ const Contact = (props) => {
             />
             <div className={styles.commentInput}>
               <FormInputField
-                id={'html_message'}
+                id={'comment'}
                 value={contactForm.comment}
                 handleChange={(id, e) => handleChange(id, e)}
                 type={'textarea'}
