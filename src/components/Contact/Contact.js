@@ -84,8 +84,8 @@ const Contact = (props) => {
             />
             <div className={styles.commentInput}>
               <FormInputField
-                id={'html_message'}
-                value={contactForm.html_message}
+                id={'message'}
+                value={contactForm.message}
                 handleChange={(id, e) => handleChange(id, e)}
                 type={'textarea'}
                 labelName={'Comments / Questions'}
