@@ -50,7 +50,7 @@ const Contact = (props) => {
       </div>
 
       <div className={styles.contactContainer}>
-        <form onSubmit={(e) => handleSubmit(e)} method="POST" data-netlify="true">
+        <form method="POST" data-netlify="true">
           <div className={styles.contactForm}>
             <FormInputField
               id={'name'}
