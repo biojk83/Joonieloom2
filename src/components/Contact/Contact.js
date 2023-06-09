@@ -59,7 +59,7 @@ const Contact = (props) => {
         <form onSubmit={(e) => handleSubmit(e)}>
           <div className={styles.contactForm}>
             <FormInputField
-              id={'name'}
+              id={'from_name'}
               value={contactForm.name}
               handleChange={(id, e) => handleChange(id, e)}
               type={'text'}
@@ -67,7 +67,7 @@ const Contact = (props) => {
               required
             />
             <FormInputField
-              id={'phone'}
+              id={'contact_number'}
               value={contactForm.phone}
               handleChange={(id, e) => handleChange(id, e)}
               type={'number'}
@@ -75,7 +75,7 @@ const Contact = (props) => {
               required
             />
             <FormInputField
-              id={'email'}
+              id={'from_email'}
               value={contactForm.email}
               handleChange={(id, e) => handleChange(id, e)}
               type={'email'}
@@ -84,7 +84,7 @@ const Contact = (props) => {
             />
             <div className={styles.commentInput}>
               <FormInputField
-                id={'comment'}
+                id={'html_message'}
                 value={contactForm.comment}
                 handleChange={(id, e) => handleChange(id, e)}
                 type={'textarea'}
