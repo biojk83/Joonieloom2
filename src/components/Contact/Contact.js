@@ -51,49 +51,24 @@ const Contact = (props) => {
 
       <div className={styles.contactContainer}>
         <form onSubmit={(e) => handleSubmit(e)} method="POST" data-netlify="true">
-          <div className={styles.contactForm}>
-            <FormInputField
-              id={'name'}
-              value={contactForm.name}
-              
-              type={'text'}
-              labelName={'Full Name'}
-              required
-            />
-            <FormInputField
-              id={'phone'}
-              value={contactForm.phone}
-              
-              type={'number'}
-              labelName={'Phone Number'}
-              required
-            />
-            <FormInputField
-              id={'email'}
-              value={contactForm.email}
-              
-              type={'email'}
-              labelName={'Email'}
-              required
-            />
-            <div className={styles.commentInput}>
-              <FormInputField
-                id={'comment'}
-                value={contactForm.comment}
-                
-                type={'textarea'}
-                labelName={'Comments / Questions'}
-                required
-              />
-            </div>
-          </div>
-          <Button
-            className={styles.customButton}
-            level={'primary'}
-            type={'buttonSubmit'}
-          >
-            submit
-          </Button>
+        <p>
+    <label>Your Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
         </form>
       </div>
     </div>
