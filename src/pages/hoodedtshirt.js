@@ -50,7 +50,7 @@ const HoodedtshirtPage = (props) => {
                 <li>Sport-Tek Hooded T-Shirt Women - 100% Polyester</li>
                 
               </ol>
-              <img alt={'founder'} src={'/hatModel.jpg'}></img>
+              <img alt={'founder'} src={'/hoodedtshirtModel.jpg'}></img>
             </div>
             <h3>Detail about ...</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>

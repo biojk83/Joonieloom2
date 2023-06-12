@@ -49,7 +49,7 @@ const TankPage = (props) => {
                 <li>Tank 100% Polyester</li>
                 
               </ol>
-              <img alt={'founder'} src={'/hatModel.jpg'}></img>
+              <img alt={'founder'} src={'/tankModel.jpg'}></img>
             </div>
             <h3>Detail about ...</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>

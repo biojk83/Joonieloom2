@@ -51,7 +51,7 @@ const ZipuphoodiePage = (props) => {
                 <li>Zip-up Hoodie 100% Cotton</li>
               
               </ol>
-              <img alt={'founder'} src={'/hatModel.jpg'}></img>
+              <img alt={'founder'} src={'/zipupModel.jpg'}></img>
             </div>
             <h3>Detail about ...</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>

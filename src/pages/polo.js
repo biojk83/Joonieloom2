@@ -51,7 +51,7 @@ const PoloPage = (props) => {
                 <li>Polo 100% Polyester</li>
                 <li>Polo Long Sleeve 60% Cotton / 40% Polyester</li>
               </ol>
-              <img alt={'founder'} src={'/hatModel.jpg'}></img>
+              <img alt={'founder'} src={'/poloModel.jpg'}></img>
             </div>
             <h3>Detail about ...</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
