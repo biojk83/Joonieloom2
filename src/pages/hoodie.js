@@ -82,7 +82,7 @@ const HoodiePage = (props) => {
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'shirt backwards'} src={'/about3.png'}></img>
+          <img alt={'shirt backwards'} src={'/about3.jpg'}></img>
         </div>
       </div>
     </Layout>
