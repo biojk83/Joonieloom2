@@ -75,6 +75,7 @@ const Footer = (prop) => {
                 </p>
                 <form>
                   You can schedule a virtual consultation with us on Zoom, over the phone , or in person.
+                  
                 </form>
                 <div className={styles.socialContainer}>
                   {Config.social.youtube && (
