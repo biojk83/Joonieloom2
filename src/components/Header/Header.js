@@ -120,18 +120,9 @@ const Header = (prop) => {
           <Brand />
           <div className={styles.actionContainers}>
             
-            <button
-              aria-label="Search"
-              className={`${styles.iconButton} ${styles.iconContainer}`}
-              onClick={() => {
-                setShowSearch(!showSearch);
-              }}
-            >
-              <Icon symbol={'search'}></Icon>
-            </button>
             <Link
               aria-label="Favorites"
-              href="/about" 
+              href="/support/#contact" 
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
              <Icon symbol={'phone'}></Icon>
