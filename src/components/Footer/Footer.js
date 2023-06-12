@@ -69,11 +69,13 @@ const Footer = (prop) => {
             })}
             <div className={styles.newsLetter}>
               <div className={styles.newsLetterContent}>
-                <span className={styles.linkTitle}>Virtual Meeting</span>
+                <span className={styles.linkTitle}>Virtual Consultation</span>
                 <p className={styles.promoMessage}>
-                  You can schedule a virtual consulation with us on Zoom, over the phone , or in person.
+                    You can schedule a virtual consultation with us on Zoom, over the phone , or in person.
                 </p>
-              
+                <form>
+                  You can schedule a virtual consultation with us on Zoom, over the phone , or in person.
+                </form>
                 <div className={styles.socialContainer}>
                   {Config.social.youtube && (
                     <div
