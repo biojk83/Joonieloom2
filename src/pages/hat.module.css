@@ -46,7 +46,7 @@
 }
 
 .imageContainer {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     margin: 80px 48px 0px 48px;
     min-height: 600px;
 }
@@ -137,7 +137,7 @@
     .imageContainer {
         min-height: unset;
         margin: 24px 16px;
-        height: 240px;
+        height: auto;
     }
 
     .imageContainer img {
