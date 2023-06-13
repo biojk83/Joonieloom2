@@ -22,7 +22,7 @@ const IndexPage = () => {
   const blogData = generateMockBlogData(3);
 
   const goToShop = () => {
-    navigate('/shop');
+    navigate('/hoodie');
   };
 
   return (
@@ -33,7 +33,7 @@ const IndexPage = () => {
         image={'/banner1.jpg'}
         title={'Custom Embroidered Clothing'}
         subtitle={'Quality Apparel from JoonieLoom'}
-        ctaText={'shop now'}
+        ctaText={'Hoodie'}
         ctaAction={goToShop}
       />
 
