@@ -8,7 +8,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Gatsby Sydney Ecommerce Theme`,
-        short_name: `JoonieLoom`,
+        short_name: `Joonie Loom`,
         start_url: `/`,
         background_color: `#000000`,
         theme_color: `#ffffff`,

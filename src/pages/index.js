@@ -32,7 +32,7 @@ const IndexPage = () => {
         maxWidth={'500px'}
         image={'/banner1.jpg'}
         title={'Custom Embroidered Clothing'}
-        subtitle={'Quality Apparel from JoonieLoom'}
+        subtitle={'Quality Apparel from Joonie Loom'}
         ctaText={'Hoodie'}
         ctaAction={goToShop}
       />
@@ -44,8 +44,8 @@ const IndexPage = () => {
           <span className={styles.gold}>apply thread.</span>
         </p>
         <p>
-          JoonieLoom <span className={styles.gold}>Contemporary modern embroidery patterns</span> and{' '}
-          <span className={styles.gold}>exclusively custom design</span>
+          Joonie Loom <span className={styles.gold}>offers contemporary, modern embroidery patterns </span> and{' '}
+          <span className={styles.gold}>personalized, custom designs for you and your brand  </span>
         </p>
       </div>
 

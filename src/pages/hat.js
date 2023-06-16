@@ -27,7 +27,7 @@ const HatPage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/about.jpg'}
-          title={`Hat \n Custom Embroidery for your logo`}
+          title={`Custom \n Hat Embroidery with your Logo or Design`}
         />
 
      
@@ -44,12 +44,12 @@ const HatPage = (props) => {
             <h3>Custom Detail</h3>
             <div ref={valuesRef}>
               <p>
-                Baseball Hat size has 3 different shapes and blah blah
+              We offer three hat styles in a variety of colors to meet your needs
               </p>
               <ol>
-                <li>Baseball 6 lines</li>
-                <li>Baseball 5 lines</li>
-                <li>No lines unstructure</li>
+                <li>Baseball 6 lines structured</li>
+                <li>Baseball 5 lines structured</li>
+                <li>No lines unstructured</li>
               </ol>
               <img alt={'founder'} src={'/hatModel.jpg'}></img>
             </div>
