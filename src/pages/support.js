@@ -13,8 +13,8 @@ const SupportPage = (props) => {
   const subpages = [
     { title: 'Shipping', key: 'shipping' },
     { title: 'Returns', key: 'returns' },
-  
-   
+    { title: 'Payments & Security', key: 'payments' },
+    { title: 'Terms & Conditions', key: 'terms' },
     { title: 'Contact Us', key: 'contact' },
     { title: 'Privacy Policy', key: 'policy' },
   ];
