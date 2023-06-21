@@ -50,11 +50,8 @@
         {
           "text": "Contact Us",
           "link": "/support#contact"
-        },
-        {
-          "text": "Shipping & Returns",
-          "link": "/support#returns"
         }
+       
       ]
     }
   ],
