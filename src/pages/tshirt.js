@@ -27,7 +27,7 @@ const TshirtPage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/about.jpg'}
-          title={`T-Shirt \n Custom Embroidery for your logo`}
+          title={`T-Shirt \n Custom T-Shirt Embroidery with your Logo or Design`} 
         />
 
      
@@ -44,7 +44,7 @@ const TshirtPage = (props) => {
             <h3>Custom Detail</h3>
             <div ref={valuesRef}>
               <p>
-                T-Shirt size has 3 different shapes and blah blah
+              We offer a variety of styles and materials for our t-shirt options:
               </p>
               <ol>
                 <li>T-Shirt 100% Cotton</li>
@@ -53,30 +53,14 @@ const TshirtPage = (props) => {
               </ol>
               <img alt={'founder'} src={'/tshirtModel.jpg'}></img>
             </div>
-            <h3>Detail about ...</h3>
+            <h3>Custom T-Shirt Details</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
               <p>
-                Our founder, Thomas Hill, had both an eye for quality and a
-                desire to innovate. As well as using the finest fibres such as
-                Sea Island cotton, cashmere and silk, he invented his own
-                fabrics. Sunspel continues this commitment to innovation today
-                and our unique fabrics include: Q100 Sea Island cotton, Q82
-                Supima cotton, Q75 warp knit mesh cotton and Q14 warp knit
-                cellular cotton. The technology behind these fabrics remains
-                unchanged today and all Sunspel products use the finest cottons,
-                wools and fibres.
+              When looking for custom t-shirts for your team, it’s important to determine the style and material. In order to meet your specific needs, Joonie Loom offers several styles and materials for t-shirts, including premium, luxury cotton and athletic, activewear. 
+Each style comes in a variety of colors so your team can express their individual identities or rep your brand-specific colors. We can customize orders to work with a several colors as well as help personalize your design color to really pop when stitched on the apparel. 
+Please reach out to our team today to discuss pricing and personalization options.
               </p>
-              <p>
-                Made in Long Eaton, England and crafted from our luxurious long
-                staple Supima cotton for unparalleled softness, comfort and
-                durability, the Sunspel T-shirt has a classic fit and only the
-                most essential details.{' '}
-              </p>
-              <p>
-                With over 100 years spent perfecting fabric, fit and style, the
-                Sunspel Classic T-shirt is recognised as the finest in the
-                world.
-              </p>
+              
             </div>
           </div>
         </Container>

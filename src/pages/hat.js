@@ -44,7 +44,7 @@ const HatPage = (props) => {
             <h3>Custom Detail</h3>
             <div ref={valuesRef}>
               <p>
-              We offer three hat styles in a variety of colors to meet your needs
+              We offer three hat styles in a variety of colors to meet your needs:
               </p>
               <ol>
                 <li>Baseball 6 lines structured</li>
@@ -53,30 +53,19 @@ const HatPage = (props) => {
               </ol>
               <img alt={'founder'} src={'/hatModel.jpg'}></img>
             </div>
-            <h3>Detail about ...</h3>
+            <h3>Custom Hat Details</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
               <p>
-                Our founder, Thomas Hill, had both an eye for quality and a
-                desire to innovate. As well as using the finest fibres such as
-                Sea Island cotton, cashmere and silk, he invented his own
-                fabrics. Sunspel continues this commitment to innovation today
-                and our unique fabrics include: Q100 Sea Island cotton, Q82
-                Supima cotton, Q75 warp knit mesh cotton and Q14 warp knit
-                cellular cotton. The technology behind these fabrics remains
-                unchanged today and all Sunspel products use the finest cottons,
-                wools and fibres.
+              Your brand identity is important, and replicating that on apparel is a great way to connect your team. Joonie Loom is passionate about ensuring highest quality items that represent your brand. 
+Our baseball caps are a great addition to your corporate apparel for all types of occasions. We offer several styles and colors in order to best meet your needs and create a piece of apparel your teams can wear proudly. 
+
               </p>
               <p>
-                Made in Long Eaton, England and crafted from our luxurious long
-                staple Supima cotton for unparalleled softness, comfort and
-                durability, the Sunspel T-shirt has a classic fit and only the
-                most essential details.{' '}
+                
+Each style option is 100% cotton twill which is a comfortable fabric choice. We offer structured and unstructured hats, as well as 5- and 6-panel styles.
+Please reach out to our team today to discuss pricing and personalization options.{' '}
               </p>
-              <p>
-                With over 100 years spent perfecting fabric, fit and style, the
-                Sunspel Classic T-shirt is recognised as the finest in the
-                world.
-              </p>
+              
             </div>
           </div>
         </Container>

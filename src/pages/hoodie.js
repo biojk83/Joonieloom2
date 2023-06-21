@@ -27,7 +27,7 @@ const HoodiePage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/about.jpg'}
-          title={`Hoodie \n Custom Embroidery for your logo`}
+          title={`Hoodie \n Custom embroidery with your Logo or Design`}
         />
 
      
@@ -44,7 +44,7 @@ const HoodiePage = (props) => {
             <h3>Custom Detail</h3>
             <div ref={valuesRef}>
               <p>
-                T-Shirt size has 3 different shapes and blah blah
+              Joonie Loom offers two hoodie options:
               </p>
               <ol>
                 <li>Gildan Hoodie 50% Cotton / 50% Polyester</li>
@@ -53,29 +53,16 @@ const HoodiePage = (props) => {
               </ol>
               <img alt={'founder'} src={'/hoodieModel.jpg'}></img>
             </div>
-            <h3>Detail about ...</h3>
+            <h3>Custom Hoodie Details</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
               <p>
-                Our founder, Thomas Hill, had both an eye for quality and a
-                desire to innovate. As well as using the finest fibres such as
-                Sea Island cotton, cashmere and silk, he invented his own
-                fabrics. Sunspel continues this commitment to innovation today
-                and our unique fabrics include: Q100 Sea Island cotton, Q82
-                Supima cotton, Q75 warp knit mesh cotton and Q14 warp knit
-                cellular cotton. The technology behind these fabrics remains
-                unchanged today and all Sunspel products use the finest cottons,
-                wools and fibres.
+              Custom hoodies are a great outerwear option for team outings or casual office days. Joonie Loom offers two styles of hoodies, both of which are fleece-lined and great for fall and winter. 
               </p>
               <p>
-                Made in Long Eaton, England and crafted from our luxurious long
-                staple Supima cotton for unparalleled softness, comfort and
-                durability, the Sunspel T-shirt has a classic fit and only the
-                most essential details.{' '}
+              The 50/50 cotton/poly blend is a soft, every day option and comes in a variety of options. For a more luxurious feel, the Original Favorites hoodie is 100% supima cotton, one of the finest cotton options for apparel. {' '}
               </p>
               <p>
-                With over 100 years spent perfecting fabric, fit and style, the
-                Sunspel Classic T-shirt is recognised as the finest in the
-                world.
+              Customized hoodies are a great addition to your corporate apparel and can be personalized with design placement and styles. Please reach out to our team today to discuss pricing and personalization options.
               </p>
             </div>
           </div>

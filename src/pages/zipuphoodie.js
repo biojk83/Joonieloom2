@@ -27,7 +27,7 @@ const ZipuphoodiePage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/about.jpg'}
-          title={`Zip-Up Hoodie \n Custom Embroidery for your logo`}
+          title={`Zip-Up Hoodie \n Custom embroidery with your Logo or Design`}
         />
 
      
@@ -44,7 +44,7 @@ const ZipuphoodiePage = (props) => {
             <h3>Custom Detail</h3>
             <div ref={valuesRef}>
               <p>
-                Zip-up Hoodie size has 3 different shapes and blah blah
+              Joonie Loom offers several zip-up Hoodie styles:
               </p>
               <ol>
                 <li>Zip-up Hoodie 80% Cotton / 20% Polyester</li>
@@ -53,29 +53,16 @@ const ZipuphoodiePage = (props) => {
               </ol>
               <img alt={'founder'} src={'/zipupModel.jpg'}></img>
             </div>
-            <h3>Detail about ...</h3>
+            <h3>Custom Zip-Up Hoodie Details</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
               <p>
-                Our founder, Thomas Hill, had both an eye for quality and a
-                desire to innovate. As well as using the finest fibres such as
-                Sea Island cotton, cashmere and silk, he invented his own
-                fabrics. Sunspel continues this commitment to innovation today
-                and our unique fabrics include: Q100 Sea Island cotton, Q82
-                Supima cotton, Q75 warp knit mesh cotton and Q14 warp knit
-                cellular cotton. The technology behind these fabrics remains
-                unchanged today and all Sunspel products use the finest cottons,
-                wools and fibres.
+              Zip-up hoodies are yet another great outerwear option for your team. They are a little more versatile than standard pull-over options, but still a great way to represent your brand and bring your team together. 
               </p>
               <p>
-                Made in Long Eaton, England and crafted from our luxurious long
-                staple Supima cotton for unparalleled softness, comfort and
-                durability, the Sunspel T-shirt has a classic fit and only the
-                most essential details.{' '}
+              All of the zip-up options are fleece lined, but are more lightweight than the standard pull-over options. Each style comes in a variety of colors and materials. We even offer a luxurious 100% organic cotton and dye-fee option for teams that want a more elevated option.{' '}
               </p>
               <p>
-                With over 100 years spent perfecting fabric, fit and style, the
-                Sunspel Classic T-shirt is recognised as the finest in the
-                world.
+              Customized zip-up hoodies are a great addition to your corporate apparel and can be personalized with design placement and styles. Please reach out to our team today to discuss pricing and personalization options.
               </p>
             </div>
           </div>
