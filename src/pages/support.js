@@ -15,7 +15,7 @@ const SupportPage = (props) => {
     { title: 'Contact Us', key: 'contact' },
   ];
 
-  const [current, setCurrent] = useState(subpages[4]);
+  const [current, setCurrent] = useState(subpages[1]);
 
   const renderElement = (key) => {
     let tempElement = <React.Fragment />;
