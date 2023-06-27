@@ -77,7 +77,7 @@ const Footer = (prop) => {
                 <div className={styles.socialContainer}>
                   {Config.social.youtube && (
                     <div
-                      onClick={() => handleSocialClick('pinterestinverse')}
+                      onClick={() => handleSocialClick('pinterest')}
                       role={'presentation'}
                       className={styles.socialIconContainer}
                     >
