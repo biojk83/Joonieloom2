@@ -5,24 +5,51 @@ const Policy = (props) => {
   return (
     <div className={styles.root}>
       <div className={styles.section}>
-        <h3>1. Lorem Ipsum</h3>
+        <h3>Shipping Policy</h3>
         <p>
-          Delaware limited liability company (The Sydney) collects personal
-          information that you voluntarily provide when applying or registering
-          for an account with The Upside or making a purchase on The Upside
-          website; www.theupside.com (the Website).
+        Thank you for visiting and shopping at My Website (change this). Following are the terms and
+conditions that constitute our Shipping Policy.
+
         </p>
         <p>
-          This Privacy Policy (Privacy Policy) outlines how your information is
-          collected, used and disclosed when you access or use our Services as
-          defined in our Terms. This information is collected, used and
-          disclosed in accordance with the Privacy Act 1988 (Cth) (Privacy Act).{' '}
+        Domestic Shipping Policy
+Shipment processing time
+All orders are processed within 2-3 business days. Orders are not shipped or delivered on
+weekends or holidays.
+If we are experiencing a high volume of orders, shipments may be delayed by a few days. Please
+allow additional days in transit for delivery. If there will be a significant delay in shipment of your
+order, we will contact you via email or telephone.
+Update this section if your processing time exceeds 2-3 business days
         </p>
         <p>
-          This Privacy Policy is incorporated by reference into our Terms. Any
-          capitalized terms not defined in this Policy are defined in the Terms.
-          You agree to comply with all Terms when accessing or using our
-          Services, including this Privacy Policy.
+        Shipping rates & delivery estimates
+Shipping charges for your order will be calculated and displayed at checkout.
+Shipment method Estimated delivery time Shipment cost
+FedEx Standard 3-5 business days Free
+FedEx Two Days 2 business days $12.95
+FedEx Overnight * 1-2 business days $19.95
+* Overnight delivery is only available for orders with delivery addresses within the continental United
+States.
+Delivery delays can occasionally occur.
+Update this section based on carriers you support.
+Shipment to P.O. boxes or APO/FPO addresses
+JoonieLoom ships to addresses within the U.S., U.S. Territories, and APO/FPO/DPO
+addresses.
+Update this section if you do not ship to P.O. boxes or APO/FPO addresses.
+Shipment confirmation & Order tracking
+You will receive a Shipment Confirmation email once your order has shipped containing your
+tracking number. The tracking number will be active within 24 hours.
+Customs, Duties and Taxes
+JoonieLoom is not responsible for any customs and taxes applied to your order. All
+fees imposed during or after shipping are the responsibility of the customer (tariffs, taxes, etc.).
+Damages
+JoonieLoom is not liable for any products damaged or lost during shipping. If you
+received your order damaged, please contact the shipment carrier to file a claim.
+Please save all packaging materials and damaged goods before filing a claim.
+International Shipping Policy
+We currently do not ship outside the U.S.
+Update this section if ship to countries outside your home country.
+
         </p>
       </div>
 
