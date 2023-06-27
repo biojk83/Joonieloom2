@@ -69,9 +69,9 @@ const Footer = (prop) => {
             })}
             <div className={styles.newsLetter}>
               <div className={styles.newsLetterContent}>
-                <span className={styles.linkTitle}>Virtual Consultation</span>
+                <span className={styles.linkTitle}>Virtual or In-Person Consultation</span>
                 <p className={styles.promoMessage}>
-                    You can schedule a virtual consultation with us on Zoom, over the phone , or in person.
+                You can schedule a virtual or in-person consultation with us to discuss your specific needs. Please email info.joonieloom@gmail.com to schedule some time!
                 </p>
                
                 <div className={styles.socialContainer}>
