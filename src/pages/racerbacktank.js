@@ -43,7 +43,7 @@ const RacerbacktankPage = (props) => {
             <h3>Custom Detail</h3>
             <div ref={valuesRef}>
               <p>
-                Racerbank Tank size has 3 different shapes and blah blah
+              The racerback tank is a performance fabric perfect for athletic wear:
               </p>
               <ol>
                 <li>Sport-Tek Racerback Tank - 100% Polyester</li>
@@ -51,30 +51,13 @@ const RacerbacktankPage = (props) => {
               </ol>
               <img alt={'founder'} src={'/racerbackModel.jpg'}></img>
             </div>
-            <h3>Detail about ...</h3>
+            <h3>Custom Racerback Details</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
               <p>
-                Our founder, Thomas Hill, had both an eye for quality and a
-                desire to innovate. As well as using the finest fibres such as
-                Sea Island cotton, cashmere and silk, he invented his own
-                fabrics. Sunspel continues this commitment to innovation today
-                and our unique fabrics include: Q100 Sea Island cotton, Q82
-                Supima cotton, Q75 warp knit mesh cotton and Q14 warp knit
-                cellular cotton. The technology behind these fabrics remains
-                unchanged today and all Sunspel products use the finest cottons,
-                wools and fibres.
+              The racerback option is a perfect fit for athletic teams or outdoor activities where a cohesive look would create a stronger team bond. The racerback is a performance fabric and great for high energy activities!
+Please reach out to our team today to discuss pricing and personalization options.
               </p>
-              <p>
-                Made in Long Eaton, England and crafted from our luxurious long
-                staple Supima cotton for unparalleled softness, comfort and
-                durability, the Sunspel T-shirt has a classic fit and only the
-                most essential details.{' '}
-              </p>
-              <p>
-                With over 100 years spent perfecting fabric, fit and style, the
-                Sunspel Classic T-shirt is recognised as the finest in the
-                world.
-              </p>
+        
             </div>
           </div>
         </Container>

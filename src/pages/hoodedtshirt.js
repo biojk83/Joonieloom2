@@ -27,7 +27,7 @@ const HoodedtshirtPage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/about.jpg'}
-          title={`Hooded T-Shirt \n Custom Embroidery for your logo`}
+          title={`Hooded T-Shirt \n Embroidery with your Logo or Design`}
         />
 
      
@@ -43,7 +43,7 @@ const HoodedtshirtPage = (props) => {
             <h3>Custom Detail</h3>
             <div ref={valuesRef}>
               <p>
-                Baseball Hat size has 3 different shapes and blah blah
+                Joonie Loom offers two lightweight hooded, performance hoodies for both men and women:
               </p>
               <ol>
                 <li>Sport-Tek Hooded T-Shirt Men - 100% Polyester</li>
@@ -52,30 +52,14 @@ const HoodedtshirtPage = (props) => {
               </ol>
               <img alt={'founder'} src={'/hoodedtshirtModel.jpg'}></img>
             </div>
-            <h3>Detail about ...</h3>
+            <h3>Custom Hooded T-Shirt Details</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
               <p>
-                Our founder, Thomas Hill, had both an eye for quality and a
-                desire to innovate. As well as using the finest fibres such as
-                Sea Island cotton, cashmere and silk, he invented his own
-                fabrics. Sunspel continues this commitment to innovation today
-                and our unique fabrics include: Q100 Sea Island cotton, Q82
-                Supima cotton, Q75 warp knit mesh cotton and Q14 warp knit
-                cellular cotton. The technology behind these fabrics remains
-                unchanged today and all Sunspel products use the finest cottons,
-                wools and fibres.
+              The hooded t-shirt is a great option for a more athletic, lightweight option. Both styles come in a performance polyester material and in a variety of colors. 
+If your team is interested in an outdoor activity or sporting event, this option would be the best for days you need a little extra weather protection! 
+Please reach out to our team today to discuss pricing and personalization options.
               </p>
-              <p>
-                Made in Long Eaton, England and crafted from our luxurious long
-                staple Supima cotton for unparalleled softness, comfort and
-                durability, the Sunspel T-shirt has a classic fit and only the
-                most essential details.{' '}
-              </p>
-              <p>
-                With over 100 years spent perfecting fabric, fit and style, the
-                Sunspel Classic T-shirt is recognised as the finest in the
-                world.
-              </p>
+           
             </div>
           </div>
         </Container>

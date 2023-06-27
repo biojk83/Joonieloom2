@@ -27,7 +27,7 @@ const AboutPage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/about.jpg'}
-          title={`Joonie Loom \n Create embroidered apparel for special events`}
+          title={`Create embroidered apparel for special events`}
         />
 
         <div className={styles.navContainer}>
@@ -48,15 +48,17 @@ const AboutPage = (props) => {
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
-              We are small local business but we can create professional looking Embroidered apparel.
+            We are a small, local business but with a big passion for creating professional embroidered apparel for you and your teams. 
             </p>
             <br />
             <br />
             <p>
-              We created some of the world's first T-shirts and spent decades
-              perfecting the feel of the cotton. Today we are the only brand
-              that makes T-shirts in its own factory in the UK. And we do this
-              in the same factory we have occupied since 1937.
+            Youngwok Kim and his wife, Lydia, launched Joonie Loom as an expression of their creativity. Joonie Loom in part was inspired by their son, Joon, and the pair work closely together to ensure the highest quality designs and outcomes. 
+            </p>
+            <br />
+            <br />
+            <p>
+            Headquartered in Horsham, PA, Joonie Loom focuses on partnering with local brands to help build their corporate identity through branded merchandise. They also create and launch their own unique designs to reach a broader audience in hopes they connect with the world around them. 
             </p>
           </div>
         </Container>
@@ -70,49 +72,17 @@ const AboutPage = (props) => {
             <h3>Our Values</h3>
             <div ref={valuesRef}>
               <p>
-                Sunspel produced some of the world's earliest T-shirts. In the
-                late 1800s the business made luxury tunics and undershirts from
-                lightweight Sea Island cotton for export to the Far East and
-                other warm climates. While these garments initially had silk
-                buttoned plackets, these were removed in the early 1900s and
-                replaced with simple bound necks to reduce manufacturing costs -
-                creating the T-shirt. We've supplied the world as the T-shirt
-                has evolved from underwear to outerwear, from symbol of youthful
-                rebellion to everyday wardrobe staple, and we've spent decades
-                refining its every last aspect.
+              Joonie Loom is passionate about partnering with you to ensure your brand identity is captured and replicated on top-quality apparel and merchandise. Our values rooted in our work ethic and dream of building a brand our family and friends can be proud of. 
               </p>
               <ol>
-                <li>Be an ecowear</li>
-                <li>Sophisticated and not mass-produced</li>
-                <li>Only natural materials</li>
+                <li>In-house, personal collaboration</li>
+                <li>Timely and handmade </li>
+                <li>Flexible agility to meet your needs</li>
               </ol>
               <img alt={'founder'} src={'/about2.jpg'}></img>
             </div>
-            <h3>Sustainability</h3>
-            <div id={'#sustainability'} ref={sustainabilityRef}>
-              <p>
-                Our founder, Thomas Hill, had both an eye for quality and a
-                desire to innovate. As well as using the finest fibres such as
-                Sea Island cotton, cashmere and silk, he invented his own
-                fabrics. Sunspel continues this commitment to innovation today
-                and our unique fabrics include: Q100 Sea Island cotton, Q82
-                Supima cotton, Q75 warp knit mesh cotton and Q14 warp knit
-                cellular cotton. The technology behind these fabrics remains
-                unchanged today and all Sunspel products use the finest cottons,
-                wools and fibres.
-              </p>
-              <p>
-                Made in Long Eaton, England and crafted from our luxurious long
-                staple Supima cotton for unparalleled softness, comfort and
-                durability, the Sunspel T-shirt has a classic fit and only the
-                most essential details.{' '}
-              </p>
-              <p>
-                With over 100 years spent perfecting fabric, fit and style, the
-                Sunspel Classic T-shirt is recognised as the finest in the
-                world.
-              </p>
-            </div>
+           
+            
           </div>
         </Container>
 
