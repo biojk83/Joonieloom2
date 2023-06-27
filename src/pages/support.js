@@ -12,11 +12,7 @@ import Container from '../components/Container';
 const SupportPage = (props) => {
   const subpages = [
     { title: 'Shipping', key: 'shipping' },
-    { title: 'Returns', key: 'returns' },
-    { title: 'Payments & Security', key: 'payments' },
-    { title: 'Terms & Conditions', key: 'terms' },
     { title: 'Contact Us', key: 'contact' },
-    { title: 'Privacy Policy', key: 'policy' },
   ];
 
   const [current, setCurrent] = useState(subpages[4]);
@@ -28,22 +24,8 @@ const SupportPage = (props) => {
       case 'contact':
         tempElement = <Contact />;
         break;
-      case 'policy':
-        tempElement = <Policy />;
-        break;
       case 'shipping':
         tempElement = <Policy />;
-        break;
-      case 'returns':
-        tempElement = <Policy />;
-        break;
-      case 'payments':
-        tempElement = <Policy />;
-        break;
-      case 'terms':
-        tempElement = <Policy />;
-        break;
-      default:
         break;
     }
     return tempElement;
