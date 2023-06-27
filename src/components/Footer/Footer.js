@@ -87,7 +87,7 @@ const Footer = (prop) => {
 
                   {Config.social.instagram && (
                     <div
-                      onClick={() => handleSocialClick('instagramtwo')}
+                      onClick={() => handleSocialClick('instagram')}
                       role={'presentation'}
                       className={styles.socialIconContainer}
                     >
@@ -105,15 +105,6 @@ const Footer = (prop) => {
                     </div>
                   )}
 
-                  {Config.social.twitter && (
-                    <div
-                      onClick={() => handleSocialClick('twitter')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'twitter'}></Icon>
-                    </div>
-                  )}
                 </div>
               </div>
             </div>
