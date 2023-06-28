@@ -27,19 +27,13 @@ const FaqPage = (props) => {
               <p>
               You don't need to have all your specific needs right away - we can discuss together and come up with the best solution for you, but if you are able to come to the conversation with some basic needs (logo or design, sizing guidelines, apparel choice), that will jumpstart our way to a great collaboration! 
               </p>
-             
             </div>
             <div className={styles.subSection}>
               <h3>Do I need to have my logo or design already in an embroidery format?</h3>
               <p>
               Nope! If you don't have your design already digitized for embroidery purposes, Joonie Loom can create it for you. 
               </p>
-           
             </div>
-          </div>
-
-          <div className={styles.section}>
-            <span>FAQ</span>
             <div className={styles.subSection}>
               <h3>I want team shirts or other apparel options but I have my own items. Can you work with apparel I provide? </h3>
               <p>
