@@ -20,7 +20,7 @@ const Blog = (props) => {
         <span>Share with:</span>
         <div className={styles.socialMediaListContainer}>
           <div className={styles.socialMediaIconContainer}>
-            <Icon symbol={'Instagramtwo'}></Icon>
+            <Icon symbol={'instagramtwo'}></Icon>
           </div>
           <div className={styles.socialMediaIconContainer}>
             <Icon symbol={'facebookinverse'}></Icon>
