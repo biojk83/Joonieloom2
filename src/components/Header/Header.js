@@ -27,7 +27,7 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Free shipping worldwide';
+  const bannerMessage = 'Welcome to Joonie Loom';
   const searchSuggestions = [
     'Oversize sweaters',
     'Lama Pajamas',
