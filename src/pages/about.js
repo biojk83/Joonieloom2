@@ -37,12 +37,8 @@ const AboutPage = (props) => {
           <ThemeLink onClick={() => handleScroll(valuesRef)} to={'#values'}>
             Values
           </ThemeLink>
-          <ThemeLink
-            onClick={() => handleScroll(sustainabilityRef)}
-            to={'#sustainability'}
-          >
-            Sustainability
-          </ThemeLink>
+         
+       
         </div>
 
         <Container size={'large'} spacing={'min'}>
