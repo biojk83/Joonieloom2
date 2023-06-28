@@ -49,12 +49,12 @@ const AboutPage = (props) => {
             <br />
             <br />
             <p>
-            Youngwok Kim and his wife, Lydia, launched Joonie Loom as an expression of their creativity. Joonie Loom in part was inspired by their son, Joon, and the pair work closely together to ensure the highest quality designs and outcomes. 
+            Youngwok Kim and his wife, Lydia, launched Joonie Loom as an expression of their creativity. Joonie Loom, in part, was inspired by their son, Joon, and the pair work closely together to ensure the highest quality designs and outcomes. 
             </p>
             <br />
             <br />
             <p>
-            Headquartered in Horsham, PA, Joonie Loom focuses on partnering with local brands to help build their corporate identity through branded merchandise. They also create and launch their own unique designs to reach a broader audience in hopes they connect with the world around them. 
+            Located in Horsham, PA, Joonie Loom focuses on partnering with local brands to help build their corporate identity through branded merchandise. They also create and launch their own unique designs to reach a broader audience in hopes they connect with the world around them. 
             </p>
           </div>
         </Container>
@@ -68,7 +68,7 @@ const AboutPage = (props) => {
             <h3>Our Values</h3>
             <div ref={valuesRef}>
               <p>
-              Joonie Loom is passionate about partnering with you to ensure your brand identity is captured and replicated on top-quality apparel and merchandise. Our values rooted in our work ethic and dream of building a brand our family and friends can be proud of. 
+              Joonie Loom is passionate about partnering with you to ensure your brand identity is captured and replicated on top-quality apparel and merchandise. Our values are rooted in our work ethic and dream of building a business our family and friends can be proud of. 
               </p>
               <ol>
                 <li>In-house, personal collaboration</li>

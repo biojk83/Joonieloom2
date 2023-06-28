@@ -61,7 +61,7 @@ const FaqPage = (props) => {
             <div className={styles.subSection}>
               <h3>How will I receive my items when they are done?  </h3>
               <p>
-              Joonie Loom is headquartered in Horsham, PA and will gladly deliver our products directly to you if you are located in the Bucks, Montgomery, Philadelphia, or surrounding areas. If you are outside our delivery zone, we can ship you the products securely, but the cost will be reflected in the final statement of work. 
+              Joonie Loom is located in Horsham, PA and will gladly deliver our products directly to you if you are located in the Bucks, Montgomery, Philadelphia, or surrounding counties. If you are outside our delivery zone, we can ship you the products securely, but the cost will be reflected in the final statement of work. 
               </p>
             </div>
 
