@@ -18,95 +18,64 @@ const FaqPage = (props) => {
         />
         <Container>
           <div className={styles.section}>
-            <span>Your Orders</span>
+            <span>FAQ</span>
             <div className={styles.subSection}>
-              <h3>Deliveries</h3>
+              <h3>I want my logo or custom design on apparel, but where do I start?</h3>
               <p>
-                To review the status of your order please visit the "My Orders"
-                section of your Sunspel Account. You should receive an email
-                notification when your package is dispatched. Please check your
-                email inbox and your junk filter.
+              That's great you're taking the first step to creating custom apparel for you and your team! Joonie Loom is here to help. First, let's start by chatting. Connect with us at info.joonieloom@gmail.com and we will discuss your specific needs and tailor a project plan just for you!
               </p>
               <p>
-                We dispatch all orders within 24 hours of being placed. During
-                our sale periods it can get very busy in our factory, orders may
-                take a little longer to be dispatched so please add five working
-                days just in case.
+              You don't need to have all your specific needs right away - we can discuss together and come up with the best solution for you, but if you are able to come to the conversation with some basic needs (logo or design, sizing guidelines, apparel choice), that will jumpstart our way to a great collaboration! 
               </p>
-              <p>
-                If there’s something you want to know about your order, please
-                get in touch with us at customerservice@example.com or call us
-                on +44 (0)115 111 1111.
-              </p>
+             
             </div>
             <div className={styles.subSection}>
-              <h3>Returns & Exchanges</h3>
+              <h3>Do I need to have my logo or design already in an embroidery format?</h3>
               <p>
-                To review the status of your order please visit the "My Orders"
-                section of your Sunspel Account. You should receive an email
-                notification when your package is dispatched. Please check your
-                email inbox and your junk filter.
+              Nope! If you don't have your design already digitized for embroidery purposes, Joonie Loom can create it for you. 
               </p>
-              <p>
-                We dispatch all orders within 24 hours of being placed. During
-                our sale periods it can get very busy in our factory, orders may
-                take a little longer to be dispatched so please add five working
-                days just in case.
-              </p>
+           
             </div>
           </div>
 
           <div className={styles.section}>
-            <span>Payment</span>
+            <span>FAQ</span>
             <div className={styles.subSection}>
-              <h3>Shipping Rates</h3>
+              <h3>I want team shirts or other apparel options but I have my own items. Can you work with apparel I provide? </h3>
               <p>
-                To review the status of your order please visit the "My Orders"
-                section of your Sunspel Account. You should receive an email
-                notification when your package is dispatched. Please check your
-                email inbox and your junk filter.
+              Yes! If you do not need or want us to source the apparel inventory, we can work with items you provide. We only ask you are able to provide a few extra in case of any mishaps during the production phase. If everything goes smoothly (which we work hard to ensure it does!), we will return the extra sets to you. 
               </p>
               <p>
-                We dispatch all orders within 24 hours of being placed. During
-                our sale periods it can get very busy in our factory, orders may
-                take a little longer to be dispatched so please add five working
-                days just in case.
+              For projects like this, our pricing is on a project-by-project basis depending on your specific needs. We can discuss this via email (info.joonieloom@gmail.com), or by scheduling a phone call or in-person meeting. 
               </p>
-              <p>
-                If there’s something you want to know about your order, please
-                get in touch with us at customerservice@example.com call us on
-                +44 (0)115 111 1111.
-              </p>
+         
             </div>
             <div className={styles.subSection}>
-              <h3>Currency</h3>
+              <h3>What if I have an idea but I don't see something similar on your website? </h3>
               <p>
-                Our website automatically selects the currency that matches your
-                delivery location. You can change this manually in the top left
-                hand corner of the page.
+              Great question. We can customize and personalize our offerings so if you have an idea for a garment or product type you don't see listed, we would be happy to discuss it with you. 
               </p>
-              <p>
-                For deliveries to the UK, we will bill you in Pounds Sterling
-                (£), to the European Union in Euros (€), to the US in Dollars
-                ($), and to the Rest of World in Pounds Sterling (£).
-              </p>
-              <p>
-                Standard rate VAT is included in all orders to the UK and
-                Europe. Orders to the Rest of the World do not include VAT.
-                Where applicable, you will be responsible for any local country
-                import duty.
-              </p>
+        
             </div>
             <div className={styles.subSection}>
-              <h3>Suspect Fraud?</h3>
+              <h3>Do you embroider designs of popular characters? </h3>
               <p>
-                Given our high levels of security, it’s very unlikely fraudulent
-                use of your card will take place on our website. But if a
-                fraudulent transaction does take place, first contact your
-                credit or debit card company so they can protect your card and
-                reimburse you. Then let us know at customerservice@example.com
-                and we will work with your card company to minimise any further
-                inconvenience to you.
+              Unfortunately we are unable to embroider designs that are not the intellectual property of the person requesting the work. 
+              </p>
+            </div>
+
+            <div className={styles.subSection}>
+              <h3>How will I receive my items when they are done?  </h3>
+              <p>
+              Joonie Loom is headquartered in Horsham, PA and will gladly deliver our products directly to you if you are located in the Bucks, Montgomery, Philadelphia, or surrounding areas. If you are outside our delivery zone, we can ship you the products securely, but the cost will be reflected in the final statement of work. 
+              </p>
+            </div>
+
+            <div className={styles.subSection}>
+              <h3>How small or big of orders can you take on?  </h3>
+              <p>
+              To an extent, we can work with as big or as little of an order as you need. We are a small team, and larger orders will have increased timelines due to bandwidth. 
+
               </p>
             </div>
           </div>
