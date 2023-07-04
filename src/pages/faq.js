@@ -76,7 +76,7 @@ const FaqPage = (props) => {
         </Container>
       </div>
     </Layout>
-  );
+  ); 
 };
 
 export default FaqPage;

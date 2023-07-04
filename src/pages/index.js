@@ -93,14 +93,6 @@ const IndexPage = () => {
         }
       />
 
-      {/* Blog Grid */}
-      <div className={styles.blogsContainer}>
-        <Container size={'large'}>
-          <Title name={'Customer'} subtitle={'Our Customers with their logo'} />
-          <BlogPreviewGrid data={blogData} />
-        </Container>
-      </div>
-
      
 
       {/* Social Media */}

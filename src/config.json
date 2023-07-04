@@ -31,11 +31,8 @@
         {
           "text": "About Us",
           "link": "/about"
-        },
-        {
-          "text": "Customer Experience",
-          "link": "/blog"
         }
+      
       ]
     },
     {
@@ -119,11 +116,7 @@
         }
       ]
     },
-    {
-      "menuLabel": "Customer",
-      "menuLink": "/blog",
-      "category": null
-    },
+   
     {
       "menuLabel": "About",
       "menuLink": "/about",
